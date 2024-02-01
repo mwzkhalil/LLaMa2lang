@@ -31,7 +31,10 @@ class Seamless_M4T_V2(BaseTranslator):
         'da': 'dan',
         'th': 'tha',
         'sv': 'swe',
-        'cs': 'ces'
+        'cs': 'ces',
+        "ur": "urd",
+        "sd": "snd",
+        "pt": "pbt"
     }
 
     def __init__(self, device, quant4, quant4_config, quant8, max_length, model_size):
